@@ -1,0 +1,101 @@
+
+
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1{
+            color: #333;
+            text-align: Center;
+        }
+
+        h2 {
+            margin-top: 20px;
+            color: #555;
+            text-align: left;
+        }
+
+        form {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            align-items: flex-end;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        input, select {
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            border: 1px solid #ddd;
+            background-color: #4caf50;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            text-align: center;
+        }
+
+        thead tr {
+            background-color: #4caf50;
+            color: white;
+            font-weight: bold;
+        }
+
+        tbody tr {
+            background-color: #f4f4f4;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+            border: 1px solid #333;
+            border-radius: 3px;
+            background-color: #f4f4f4;
+        }
+
+        a:hover {
+            background-color: #ddd;
+        }
+
+        .crud-table--eliminar {
+            color: #fff;
+            background-color: #d9534f;
+            border-color: #d43f3a;
+        }
